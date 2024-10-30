@@ -35,6 +35,7 @@ Fluent in English, Spanish, and Ukrainian, I am eager to collaborate in diverse 
 function multiply(a, b) {
   return a * b;
 }
+```
 
 ## Work Experience
 
