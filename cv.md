@@ -1,6 +1,8 @@
 # Valeriia Pavlova
 #### *UI-UX designer & Junior Frontend Developer*
 
+![Foto de Valeriia Pavlova](./Valeria.jpg)
+
 ## Contact Information
 - Email: vapavlovalera@gmail.com
 - Telegram: @PavloValeria
