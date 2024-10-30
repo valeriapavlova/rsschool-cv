@@ -31,6 +31,11 @@ Fluent in English, Spanish, and Ukrainian, I am eager to collaborate in diverse 
 
 ## Code Example
 
+```javascript
+function multiply(a, b) {
+  return a * b;
+}
+
 ## Work Experience
 
 ### UI/UX Designer | Content Creator
