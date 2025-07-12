@@ -10,6 +10,14 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    /* Set the pattern as the background */
+    background-color: #fff;
+    background-image: 
+    linear-gradient(to right, #F77F00 1px, transparent 1px),
+    linear-gradient(to bottom, #F77F00 1px, transparent 1px);
+    background-size: 50px 50px;
+  /* Makes the pattern cover the entire page and stay fixed on scroll */
+    background-attachment: fixed;
 }
 
 .container {
