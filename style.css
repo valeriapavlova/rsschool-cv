@@ -5,6 +5,7 @@
     --highlights: #29BF12;
     --text-primary: #333333;
     --light: #FFFFFF;
+    --logo-gradient: linear-gradient(90deg, #FB7C69 9%, #FF79D2 52.5%, rgba(131, 104, 239, 0.67) 100%);
 }
 
 * {
