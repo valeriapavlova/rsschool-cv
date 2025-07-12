@@ -1,3 +1,12 @@
+:root {
+    --button-primary: #FF79D2;
+    --brand-primary: #8368EF;
+    --hover: #F77F00;
+    --highlights: #29BF12;
+    --text-primary: #333333;
+    --light: #FFFFFF;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -11,10 +20,10 @@ body {
     flex-direction: column;
     justify-content: space-between;
     /* Set the pattern as the background */
-    background-color: #fff;
+    background-color: var(--light);
     background-image: 
-    linear-gradient(to right, #F77F00 1px, transparent 1px),
-    linear-gradient(to bottom, #F77F00 1px, transparent 1px);
+    linear-gradient(to right, var(--hover) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--hover) 1px, transparent 1px);
     background-size: 50px 50px;
   /* Makes the pattern cover the entire page and stay fixed on scroll */
     background-attachment: fixed;
@@ -26,5 +35,5 @@ body {
 }
 
 h1 {
-    color: #333;
+    color: var(--text-primary);
 }
