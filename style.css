@@ -55,6 +55,13 @@ h1 {
     padding-bottom: 40px;
     }
 
+p {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: var(--font-weight-regular);
+    line-height: 155%; /* 31px */
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -123,11 +130,12 @@ a {
     color: var(--hover);
 }
 
-/* Hero Section Styles */
+/* Section Styles */
 .section {
     display: flex;
-    width: 100%;
-    padding-top: 50px; /* Optional padding */
+    width: 1150px;
+    height: 100%;;
+    padding-top: 50px;
 }
 
 .section-box {
@@ -137,10 +145,25 @@ a {
     padding: 50px;
 }
 
+.section-subtitle {
+    color: var(--text-primary);
+    font-size: 16px;
+    font-weight: var(--font-weight-medium);
+    line-height: 155%; /* 24.8px */
+}
+
+.section-title {
+    color: var(--brand-primary);
+    font-size: 48px;
+    font-weight: var(--font-weight-semibold);
+    line-height: 104%; /* 49.92px */
+}
+
+/* Hero Section Styles */
 #hero {
     display: flex;
     width: 1150px;
-    height: 500px;
+    height: 550px;
     justify-content: center;
     align-items: flex-start;
     gap: 50px;
@@ -197,3 +220,25 @@ a {
     object-fit: cover;
     display: block;
 }*/
+
+/* About Section Styles */
+.about-content {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    align-items: center;
+}
+
+.about-titles {
+    display: flex;
+    flex-direction: column;
+    min-width: 240px; /* adjust as needed */
+}
+
+.about-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    max-width: 800px; /* adjust as needed */
+}
