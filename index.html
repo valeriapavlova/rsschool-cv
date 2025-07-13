@@ -4,10 +4,130 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
+    <link rel="icon" href="assets/favicon/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Valeria Pavlova</h1>
-    <p>UI-UX designer & Junior Frontend Developer</p>
-    <img src="/Valeria.jpg" alt="photo Valeria Pavlova" width="300px">
+    <header class="header">
+        <div class="container header__container">
+            <div class="logo">Va-Pavlova</div>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#code">Code</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#languages">Languages</a></li>
+                        <li><a href="#contacts">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <section class="section" id="hero">
+                <div class="hero-content section-box">
+                    <p class="hero-text">Hi <span aria-label="winking face" role="img">;)</span><br>
+                    I’m Valeriia,</p>
+                    <h1>UI-UX designer &amp; Junior <br> Frontend Developer</h1>
+                    <button class="button hero-button">Let's Talk</button>
+                </div>
+                <div class="hero-image section-box">
+                    <img src="assets/img/Valeria.jpg" alt="Valeria" class="hero-image__img">
+                </div>
+            </section>
+            <section class="section" id="about">
+                <div class="about-content section-box">
+                    <div class="titles">
+                        <h3 class="section-subtitle">A Brief Introduction</h3>
+                        <h2 class="section-title">Who I Am</h2>
+                    </div>
+                    <div class="about-text">
+                        <p>As a passionate web and UX designer, I specialize in crafting visually stunning and user-centric digital experiences. Currently, I am expanding my expertise by transitioning into frontend development, allowing me to transform my creative designs into functional code. </p>
+                        <p>Fluent in English, Spanish, and Ukrainian, I am eager to collaborate in diverse teams and contribute to innovative web solutions while continuously learning and growing in the field of frontend technologies.</p>
+                    </div>
+                </div>
+            </section>
+            <div class="wrapper-skills">
+                <section class="section" id="hard-skills">
+                    <div class="skills-content section-box">
+                        <div class="titles">
+                            <h3 class="section-subtitle">Technical Proficiencies</h3>
+                            <h2 class="section-title">Hard Skills</h2>
+                        </div>
+                        <div class="skills-tabs">
+                            <div class="tabs">
+                                <div class="tab" style="width:225px;">UX-UI design</div>
+                                <div class="tab" style="width:200px;">Prototyping</div></div>
+                            <div class="tabs">
+                                <div class="tab" style="width:200px;">UX Research</div>
+                                <div class="tab" style="width:200px;">Wireframing</div>
+                            </div>
+                            <div class="tab" style="width:350px;">Responsive Web Design</div>
+                            <div class="tabs">
+                                <div class="tab" style="width:175px;">Git, GitHub</div>
+                                <div class="tab" style="width:250px;">HTML, CSS (basic)</div>
+                            </div>
+                            <div class="tabs">
+                                <div class="tab" style="width:350px;">JavaScript (learning)</div>
+                            </div>
+                            <div class="tabs">
+                                <div class="tab" style="width:275px;">Adobe Illustrator</div>
+                                <div class="tab" style="width:150px;">Figma</div>
+
+                            </div>
+                            <div class="tabs">
+                                <div class="tab" style="width:175px;">Webflow</div>
+                                <div class="tab" style="width:250px;">Adobe Photoshop</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="wrapper-expirience">
+                    <section class="section" id="job">
+                        <div class="job-content section-box">
+                            <div class="titles">
+                                <h3 class="section-subtitle">My work journey</h3>
+                                <h2 class="section-title">Experience</h2>
+                            </div>
+                            <div class="job-texts">
+                                <div class="job-text">
+                                    <h4 class="accented--pink">UI/UX designer | Webflow</h4>
+                                    <p>Freelance, Apr 2019 - Present</p>
+                                </div>
+                                <div class="job-text">
+                                    <h4 class="accented--pink">UI/UX Designer | Content creator</h4>
+                                    <p>Soul Sisters Spain, Málaga, España <br> Oct 2019 - Feb 2022</p>
+                                </div>
+                                <div class="job-text">
+                                    <h4 class="accented--pink">Wardrobe Stylist</h4>
+                                    <p>Studio Kvartal-95, Kyiv City, Ukraine <br> Feb 2013 - Oct 2018</p>
+                                </div>
+                        </div>
+                    </section>
+                    <section class="section" id="code">
+                        <div class="code-content section-box">
+                            <div class="titles">
+                                <h3 class="section-subtitle">Example of code</h3>
+                                <h2 class="section-title">What I Do</h2>
+                            </div>
+                            <div class="code-example">
+                                <pre><code><span class="keyword">function</span> multiply(a, b) <span class="brace">{</span> <br><span class="return">return</span> a * b<span class="brace">;</span> <br><span class="brace">}</span>
+                                </code></pre>
+                                </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    <footer class="footer">
+        <div class="container">
+
+        </div>
+    </footer>
 </body>
 </html>
