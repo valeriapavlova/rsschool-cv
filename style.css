@@ -55,6 +55,23 @@ h1 {
     padding-bottom: 40px;
     }
 
+h4{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: var(--font-weight-semibold);
+    line-height: 155%; /* 31.2px */
+}
+
+.accented--pink {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-color: var(--button-primary);
+    text-decoration-thickness: 11%; /* 2.2px */
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
 p {
     font-size: 20px;
     font-style: normal;
@@ -267,4 +284,17 @@ a {
     line-height: 155%;
     padding: 0 24px;
     user-select: none;
+}
+
+/* job section styles */
+.job-content {
+    display: flex;
+    flex-direction: column;
+    gap: 36px; /* space between blocks */
+}
+
+.job-texts {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
