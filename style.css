@@ -25,7 +25,7 @@ html {
 body {
     color: var(--text-primary);
     font-family: "SUSE", sans-serif;
-    min-height: 100vh;
+
     margin: 0;
     padding: 0;
     display: flex;
@@ -41,6 +41,20 @@ body {
     background-attachment: fixed;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: var(--text-primary);
+    font-size: 28px;
+    font-style: normal;
+    font-weight: var(--font-weight-semibold);
+    line-height: 130%; /* 36.4px */
+    padding-bottom: 40px;
+    }
+
 a {
     text-decoration: none;
     color: inherit;
@@ -52,6 +66,7 @@ a {
     padding: 0 150px;
 }
 
+/* Header Styles */
 .header {
     background-color: var(--light);
     height: 100px;
@@ -107,3 +122,78 @@ a {
 .nav__list a:focus {
     color: var(--hover);
 }
+
+/* Hero Section Styles */
+.section {
+    display: flex;
+    width: 100%;
+    padding-top: 50px; /* Optional padding */
+}
+
+.section-box {
+    border-radius: 50px;
+    border: 3px solid var(--brand-primary);
+    background: var(--light);
+    padding: 50px;
+}
+
+#hero {
+    display: flex;
+    width: 1150px;
+    height: 500px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    flex-shrink: 0;
+    margin: 0 auto;
+}
+
+.hero-content {
+    width: 550px;
+    height: 500px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.hero-text {
+    color: var(--brand-primary);
+    font-size: 74px;
+    font-style: normal;
+    font-weight: var(--font-weight-extrabold);
+    line-height: 105%; /* 77.7px */
+}
+
+.hero-button {
+    background-color: var(--button-primary);
+    color: var(--light);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: var(--font-weight-semibold);
+    line-height: 155%;
+    width: 250px;
+    height: 60px;
+    padding: 12px 24px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.hero-image {
+    display: flex;
+    width: 550px;
+    height: 500px;
+    padding: 0px 93px 0px 94px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    overflow: hidden; /* Ensures image doesn't overflow rounded corners */
+}
+
+/*.hero-image__img {
+    object-fit: cover;
+    display: block;
+}*/
