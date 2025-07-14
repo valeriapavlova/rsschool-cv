@@ -401,12 +401,30 @@ a {
 }
 
 /* Languages Section Styles */
+
 .wrapper-contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.languages-content {
     display: flex;
     flex-direction: row;
     gap: 50px;
 }
 
+.languages-titles{
+    max-width: 200px;
+}
+
+.languages-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 350px;
+}
 /* Contacts Section Styles */
 
 
