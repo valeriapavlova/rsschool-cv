@@ -90,6 +90,13 @@ a {
     padding: 0 150px;
 }
 
+.wrapper-skills,
+.wrapper-contacts {
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
 /* Header Styles */
 .header {
     background-color: var(--light);
@@ -150,8 +157,9 @@ a {
 /* Section Styles */
 .section {
     display: flex;
-    width: 1150px;
-    height: 100%;;
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
     padding-top: 50px;
 }
 
