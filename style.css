@@ -280,17 +280,29 @@ a {
 }
 
 .skills-tabs {
+    list-style: none;
+    padding: 0;
+    margin: 40px 0 0;
     display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    margin: 30px 0 0;
-    justify-content: flex-start;
+    flex-direction: column;
+    gap: 25px; /* space between rows */
 }
+
 .tabs {
+  /* Each row */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tabs > ul {
     display: flex;
     flex-direction: row;
-    gap: 25px;
+    gap: 25px; /* space between tabs in a row */
+    padding: 0;
+    margin: 0;
 }
+
 .tab {
     height: 60px;
     display: flex;
@@ -301,12 +313,13 @@ a {
     border: 2px solid var(--hover, #F77F00);
     border-radius: 30px;
     font-size: 20px;
-    font-style: normal;
-    font-weight: var(--font-weight-semibold);
+    font-weight: 700;
     line-height: 155%;
-    padding: 0 24px;
     user-select: none;
+    box-sizing: border-box;
+    padding: 0 24px;
 }
+
 
 /* job section styles */
 #job {
@@ -361,3 +374,20 @@ a {
 .code-example .return { color: #FF79D2; }
 .code-example .brace { color: #29BF12; }
 
+/* Education Section Styles */
+.column-edu {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.education-texts {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+.university {
+    max-width: 350px;
+}
