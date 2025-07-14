@@ -391,3 +391,53 @@ a {
 .university {
     max-width: 350px;
 }
+
+/* Languages Section Styles */
+.wrapper-contacts {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+/* Contacts Section Styles */
+
+
+/* Footer Styles */
+.footer {
+    background-color: var(--light);
+    height: 100px;
+    margin-top: 50px;
+}
+
+.footer-content {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    padding-top: 20px;
+}
+
+.footer-text {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 155%;
+}
+
+.footer-copyright {
+    color: var(--Naranja, #F77F00);
+}
+
+.footer-name {
+    color: var(--rosa, #FF79D2);
+}
+
+.footer-links a {
+    height: 50px;
+    width: 135px;
+    transition: background 0.2s;
+}
