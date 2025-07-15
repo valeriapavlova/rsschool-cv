@@ -346,7 +346,7 @@ a {
 .job-texts {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 50px;
 }
 
 /* code-block section styles */
