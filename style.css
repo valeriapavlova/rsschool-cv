@@ -426,7 +426,45 @@ a {
     min-width: 350px;
 }
 /* Contacts Section Styles */
+.contact-email {
+    margin-top: 24px;
+    font-size: 20px;
+    font-family: "SUSE", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 155%;
+    letter-spacing: 0.8px;
+}
 
+.contact-email a {
+    color: #29BF12;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    }
+
+.contact-email a:hover {
+    color: var(--hover);
+}
+
+.social-icons {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.social-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    transition: transform 0.2s ease;
+}
+
+.social-icons a:hover {
+    transform: scale(1.1);
+}
 
 /* Footer Styles */
 .footer {
